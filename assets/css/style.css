@@ -1,0 +1,68 @@
+
+.navbar-brand{
+    font-family: "Lobster", sans-serif;
+    font-size: 3rem;
+}
+
+.foto-text {
+    margin: 3rem;
+    font-size: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 0.1rem solid black;
+    margin-left: 8rem;
+}
+
+
+.footer span{
+    font-family: "Lobster", sans-serif;
+}
+.fuente{
+    font-family: "Lobster", sans-serif !important;
+}
+.footer1{
+    font-family: "Cabin", sans-serif;
+}
+.footer1 button{
+    width: 15rem;
+}
+.footer2{
+    font-family: "Lobster", sans-serif;
+}
+
+.text-center{
+    color: #ffffff;
+}
+.prep{
+    font-family: "Cabin", sans-serif;
+}
+.col-7 h1{
+    justify-content: left 3rem;
+}
+.col-6 h5{
+    margin-left: 5rem;
+    font-size: rem;
+}
+ footer .rico{
+
+     font-family: "Cabin", sans-serif;
+ }
+
+footer .button{
+    display: flex;
+    justify-content: end;
+    ;
+}
+
+/* Se aplica de 1024 hacia abajo */
+    @media (max-width: 1024px) {
+    .carousel img {
+      width: 10rem;
+    }
+    }
+
+    /* Se aplica de 426 hacia arriba */
+@media (min-width: 426px) {
+    header img {
+      max-width: 10rem;
+    }
+  }
