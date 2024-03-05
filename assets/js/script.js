@@ -60,3 +60,9 @@ const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstra
     }
     $('#enviarCorreo').on('click', alerta)
     
+
+
+    function cambiar_ingredientes(){
+      $("#ingredientes").toggleClass("text-danger")
+    }
+    $("#ingredientes").on("dblclick", cambiar_ingredientes)
