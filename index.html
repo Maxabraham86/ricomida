@@ -22,8 +22,9 @@
 </head>
 
 <body>
-
   <div class="container-fluid">
+
+    <!-- Navbar -->
     <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
       <div class="container-fluid">
         <a class="navbar-brand ms-5">Ricomida</a>
@@ -45,12 +46,12 @@
             <li class=" nav-item">
                 <a class="nav-link me-5" href="#" ;">Contactos</a>
             </li>
-
           </ul>
-
         </div>
       </div>
     </nav>
+
+    <!-- Foto principal y titulo -->
     <section class="entrada">
       <div class="row">
         <div class="col-5">
@@ -60,32 +61,24 @@
           <h1 class="d-inline-block p-5 foto-text ms-3">PIZZA ESTILO CHICAGO CON ESPINACAS Y CHAMPIÑONES</h1>
           <div>
             <h4>110 Min. / 6 a 8 porciones</h4>
-
           </div>
-
           <div class="botones gap-2">
-  
-            
             <button id="enviarCorreo" type="button" class="btn btn-primary" data-bs-toggle="tooltip" data-bs-placement="bottom"
             data-bs-custom-class="custom-tooltip"
             data-bs-title="Presiona para enviar a tu correo">Enviar por correo</button>
-            
-            
-  
             <button id="enviarCorreo" data-bs-toggle="tooltip" data-bs-placement="right"
             data-bs-title="Agrega esta receta a tus favoritos" type="right" class="btn btn-outline-secondary text-dark bg-light ">Añadir a favoritos</button>
           </div>
-
         </div>
-
       </div>
-
     </section>
+
+
     <!--carusel-->
-    
     <section class="carousel mt-4 d-none d-sm-block">
       <div id="carouselExample" class="carousel slide">
         <div class="carousel-inner">
+
           <div class="carousel-item active">
             <div class="row">
               <div class="col-3">
@@ -93,7 +86,6 @@
               </div>
               <div class="col-3">
                 <img src="assets/img/slider-2.png" class="d-block w-100" alt="...">
-
               </div>
               <div class="col-3">
                 <img src="assets/img/slider-3.png" class="d-block w-100" alt="...">
@@ -103,6 +95,7 @@
               </div>
             </div>
           </div>
+
           <div class="carousel-item">
             <div class="row">
               <div class="col-3">
@@ -114,13 +107,12 @@
               <div class="col-3">
                 <img src="assets/img/slider-7.png" class="d-block w-100" alt="...">
               </div>
-
               <div class="col-3">
                 <img src="assets/img/slider-8.png" class="d-block w-100" alt="">
               </div>
             </div>
-
           </div>
+
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
@@ -132,86 +124,82 @@
         </div>
       </div>
     </section>
-    <!--receta-->
+
 
     <hr class="opacity 1">
-      <div class="prep">
 
-        <div class="row mt-4">
-          <div class="col-6">
-            <h4 id="ingredientes" class="text-decoration-underline m-3 ">Ingredientes</h4>
-            <ul>
-              <hr>
-              <h6>Masa</h6>
-              <li>20 Gr de levadura seca instantánea</li>
-              <li>1 cucharadita de azúcar</li>
-              <li>500 ml agua tivia</li>
-              <li>100 ml aceite vegetal</li>
-              <li>4 cucharas de aceite de oliva</li>
-              <li>65 gr harina de maiz fina (chuchoca)</li>
-              <li>2 cucharaditas de sal</li>
-              <li>625 gr harina</li>
-              <li>Salsa</li>
-              <br>
-              <li>5 cucharadas de aceite de oliva</li>
-              <li>1/2 cebolla picada en cubos finos</li>
-              <li>2 cucharaditas de sal</li>
-              <li>3 cucharadas de Orégano Gourmet</li>
-              <li>1 1/2 cucharadas de Albahaca Gourmet</li>
-              <li>2 tarro de tomates en cubos al natural</li>
-              <li>2 cucharaditas de azúcar</li>
-              <li>Relleno</li>
-              <br>
-              <li>1/2 cebolla, en cubos</li>
-            </ul>
-          </div>
+    <!--receta-->
+    <div class="prep">
+      <div class="row mt-4">
+        <div class="col-md-6 col-sm-4">
+          <h4 id="ingredientes" class="text-decoration-underline m-3 ">Ingredientes</h4>
+          <ul>
+            <hr>
+            <h6>Masa</h6>
+            <li>20 Gr de levadura seca instantánea</li>
+            <li>1 cucharadita de azúcar</li>
+            <li>500 ml agua tivia</li>
+            <li>100 ml aceite vegetal</li>
+            <li>4 cucharas de aceite de oliva</li>
+            <li>65 gr harina de maiz fina (chuchoca)</li>
+            <li>2 cucharaditas de sal</li>
+            <li>625 gr harina</li>
+            <li>Salsa</li>
+            <br>
+            <li>5 cucharadas de aceite de oliva</li>
+            <li>1/2 cebolla picada en cubos finos</li>
+            <li>2 cucharaditas de sal</li>
+            <li>3 cucharadas de Orégano Gourmet</li>
+            <li>1 1/2 cucharadas de Albahaca Gourmet</li>
+            <li>2 tarro de tomates en cubos al natural</li>
+            <li>2 cucharaditas de azúcar</li>
+            <li>Relleno</li>
+            <br>
+            <li>1/2 cebolla, en cubos</li>
+          </ul>
+        </div>
 
-
-          <div class="col-6">
-            <div class="d-inline-block">
-              <h4 id="cambiar_color2" class="m-2 text-decoration-underline">Preparación</h4>
-              <br>
-              <h5 class="px-4">PREPARACIÓN 1. Para la masa, disolver la levadura y el azúcar en agua tibia en un bol grande. Dejar
-                reposar 2 minutos. Agregar el aceite, la harina de maíz, sal y 400gr de harina. Mezclar bien. Amasar y
-                agregar el resto de harina, la cantidad necesaria para tener una masa blanda. Poner en el mesón y amasar
-                por 5 minutos o hasta tener una masa lisa y elástica (agregar harina en el mesón a medida que se va
-                amasando para que la masa no se pegue) . Poner la masa en un bol aceitado, tapar con un paño de cocina
-                limpio y dejar reposar hasta que la masa duplique su volumen (leudar). Golpear la masa para que baje y
-                luego dejar leudar por 40 minutos adicionales.
-                <br> 2. Mientras tanto preparar la salsa: Calentar 4 cucharadas de aceite en una olla a fuego medio.
-                Agregar la cebolla, Orégano Gourmet, Albahaca Gourmet, sal y cocinar hasta que la cebolla esté dorada.
-                Agregar el ajo y cocinar por 30 segundos. Agregar los tomates junto al jugo del tarro, a la mezcla de
-                cebolla. Agregar el azúcar y cocinar hasta que la mezcla se haya reducido y espesado, como 30 minutos.
-                Sazonar con sal y pimienta a gusto. Reservar.
-                <br>3. Relleno: Cocinar las chalotas en el aceite de oliva hasta que estén transparentes. Agregar los
-                champiñones y las espinacas, cocinar hasta que estén cocidos y se haya evaporado todo el líquido que
-                hayan
-                votado los vegetales. Reservar.
-                <br>4. Calentar el horno a 220C.
-                <br> 5. Una vez que la masa haya reposado, dividirla en dos bolas. Estirar cada masa para cubrir dos
-                moldes (desmontables) de 26 cm, hacer un borde de 5 cm con la masa. Dividir el relleno entre las dos
-                pizza, tapar con el queso mozarella, luego terminar con la salsa de tomates y finalmente espolvorear el
-                queso rallado.
-                <br>6. Hornear por 35 a 40 minutos o hasta que el relleno esté caliente y la base esté esponjosa y
-                dorada.
-                Esperar unos minutos antes de desmoldar.
-              </h5>
-            </div>
+        <div class="col-md-6 col-sm-4">
+          <div class="d-inline-block">
+            <h4 id="cambiar_color2" class="m-2 text-decoration-underline">Preparación</h4>
+            <br>
+            <h5 class="px-4">PREPARACIÓN 1. Para la masa, disolver la levadura y el azúcar en agua tibia en un bol grande. Dejar
+              reposar 2 minutos. Agregar el aceite, la harina de maíz, sal y 400gr de harina. Mezclar bien. Amasar y
+              agregar el resto de harina, la cantidad necesaria para tener una masa blanda. Poner en el mesón y amasar
+              por 5 minutos o hasta tener una masa lisa y elástica (agregar harina en el mesón a medida que se va
+              amasando para que la masa no se pegue) . Poner la masa en un bol aceitado, tapar con un paño de cocina
+              limpio y dejar reposar hasta que la masa duplique su volumen (leudar). Golpear la masa para que baje y
+              luego dejar leudar por 40 minutos adicionales.
+              <br> 2. Mientras tanto preparar la salsa: Calentar 4 cucharadas de aceite en una olla a fuego medio.
+              Agregar la cebolla, Orégano Gourmet, Albahaca Gourmet, sal y cocinar hasta que la cebolla esté dorada.
+              Agregar el ajo y cocinar por 30 segundos. Agregar los tomates junto al jugo del tarro, a la mezcla de
+              cebolla. Agregar el azúcar y cocinar hasta que la mezcla se haya reducido y espesado, como 30 minutos.
+              Sazonar con sal y pimienta a gusto. Reservar.
+              <br>3. Relleno: Cocinar las chalotas en el aceite de oliva hasta que estén transparentes. Agregar los
+              champiñones y las espinacas, cocinar hasta que estén cocidos y se haya evaporado todo el líquido que
+              hayan
+              votado los vegetales. Reservar.
+              <br>4. Calentar el horno a 220C.
+              <br> 5. Una vez que la masa haya reposado, dividirla en dos bolas. Estirar cada masa para cubrir dos
+              moldes (desmontables) de 26 cm, hacer un borde de 5 cm con la masa. Dividir el relleno entre las dos
+              pizza, tapar con el queso mozarella, luego terminar con la salsa de tomates y finalmente espolvorear el
+              queso rallado.
+              <br>6. Hornear por 35 a 40 minutos o hasta que el relleno esté caliente y la base esté esponjosa y
+              dorada.
+              Esperar unos minutos antes de desmoldar.
+            </h5>
           </div>
         </div>
-      
-
       </div>
-    <article>
-      
+    </div>
 
     <!-- ahora vienen las tarjetas-->
-    <div class="card m-5">
-      <div class="row">
-        <col-12>
-        <h2 class="text-center py-3">Recetas relacionadas</h2>
-      
-      </col-12>
+    <article>
+    
+      <div class="card m-5">
+        <div class="row">
+        
+          <h2 class="text-center text-decoration-underline">Recetas relacionadas</h2>
         <div class="col-4">
           <div class="card w-1020" style="width: 16rem;">
             <img src="assets/img/recipe-card-1.png" class="card-img-top" alt="...">
@@ -220,7 +208,6 @@
               <p class="card-text">Mus enim elementum dignissim class eleifend justo, ut nunc magnis est vulputate
                 nostra, blandit erat luctus faucibus orci.
                 content.</p>
-
             </div>
           </div>
         </div>
@@ -232,11 +219,10 @@
               <h5 class="card-title">TIRAMISÚ</h5>
               <p class="card-text">Congue fermentum dignissim rhoncus elementum ac nisi, proin phasellus lacinia sed
                 faucibus mauris, taciti scelerisque nulla ornare consequat.</p>
-
             </div>
+
           </div>
         </div>
-
         <div class="col-4">
           <div class="card" style="width: 16rem;">
             <img src="assets/img/recipe-card-3.png" class="card-img-top" alt="...">
@@ -244,11 +230,9 @@
               <h5 class="card-title">PLATEADA</h5>
               <p class="card-text">Cubilia elementum posuere arcu rhoncus egestas lectus, diam aliquam laoreet ac
                 eleifend risus, urna auctor inceptos mattis dapibus.</p>
-
             </div>
           </div>
         </div>
-
       </div>
 
 

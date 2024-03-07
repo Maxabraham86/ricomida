@@ -42,21 +42,21 @@
     margin-left: 5rem;
     font-size: rem;
 }
- footer .rico{
+footer .rico{
 
-     font-family: "Cabin", sans-serif;
- }
+    font-family: "Cabin", sans-serif;
+}
 
 footer .button{
     display: flex;
     justify-content: end;
-    ;
+    
 }
 
 /* Se aplica de 1024 hacia abajo */
     @media (max-width: 1024px) {
     .carousel img {
-      width: 10rem;
+    width: 10rem;
     }
     }
 
@@ -66,3 +66,7 @@ footer .button{
       max-width: 10rem;
     }
   }
+article h2{
+    color: grey !important;
+    padding: 2rem !important;
+}

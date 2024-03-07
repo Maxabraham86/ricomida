@@ -19,41 +19,11 @@ const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstra
 //(cambio)
 
  
+  function esconder_texto(){
+    $(".card-text").toggle("d-none")
+  }
+  $(".card-title").on("click", esconder_texto)
 
-//function esconder_titulo(){
- //   $(".card-text").toggle("d-none")
-//}
-
-//    $(".card-title").on("click", esconder_titulo)//
-
-
-  //  function esconder_titulo () {
-   //     $('.card-text').toggle('d-none')
-  //    }
-    
-  //    $('.card-title').on('click', esconder_titulo)
-
-
-
-
-
-   // Carlos — Today at 11:01 PM
-   // $('#cambio-color1').on('dblclick', function () {
-   //     $('#cambio-color1').toggleClass('text-danger')
-    //});
-    
-    //$('#cambio-color2').on('dblclick', function () {
-    //    $('#cambio-color2').toggleClass('text-danger')
-    //});
-    
-    
-   // function esconder_titulo () {
-   //   $('.card-text').toggle('d-none')
-   // }
-    
-    //$('.card-title').on('click', esconder_titulo)
-    
-    
     
     function alerta () {
         alert('Email enviado con éxito')
@@ -65,4 +35,10 @@ const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstra
     function cambiar_ingredientes(){
       $("#ingredientes").toggleClass("text-danger")
     }
-    $("#ingredientes").on("dblclick", cambiar_ingredientes)
+    $("#ingredientes").on("click", cambiar_ingredientes)
+    
+    function cambiar_preparacion(){
+      $("#cambiar_color2").toggleClass("text-danger")
+    }
+    $("#cambiar_color2").on("click", cambiar_preparacion
+  )
